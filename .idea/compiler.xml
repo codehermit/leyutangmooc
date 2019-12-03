@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="leyutang-microservice-edu" />
+        <module name="leyutang-framework-common" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="leyutang-framework-common" target="1.8" />
+      <module name="leyutang-framework-parent" target="1.8" />
+      <module name="leyutang-microservice-edu" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="leyutang-framework-common" options="-parameters" />
+      <module name="leyutang-microservice-edu" options="-parameters" />
+    </option>
+  </component>
+</project>
