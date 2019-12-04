@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4e8edb27-b196-4228-aebd-f01a0b79a305" name="Default Changelist" comment="" />
+    <list default="true" id="4e8edb27-b196-4228-aebd-f01a0b79a305" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/leyutang-framework-common/src/main/java/com/leyutang/common/exception/LeyutangException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyutang-framework-common/src/main/java/com/leyutang/common/handler/CommonMetaObjectHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyutang-framework-common/src/main/java/com/leyutang/common/handler/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyutang-microservice-edu/src/main/java/com/leyutang/edu/query/TeacherQuery.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leyutang-microservice-edu/src/main/java/com/leyutang/edu/EduApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/leyutang-microservice-edu/src/main/java/com/leyutang/edu/EduApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leyutang-microservice-edu/src/main/java/com/leyutang/edu/controller/admin/TeacherAdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/leyutang-microservice-edu/src/main/java/com/leyutang/edu/controller/admin/TeacherAdminController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leyutang-microservice-edu/src/main/java/com/leyutang/edu/service/TeacherService.java" beforeDir="false" afterPath="$PROJECT_DIR$/leyutang-microservice-edu/src/main/java/com/leyutang/edu/service/TeacherService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leyutang-microservice-edu/src/main/java/com/leyutang/edu/service/impl/TeacherServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/leyutang-microservice-edu/src/main/java/com/leyutang/edu/service/impl/TeacherServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leyutang-microservice-edu/target/classes/com/leyutang/edu/controller/admin/TeacherAdminController.class" beforeDir="false" afterPath="$PROJECT_DIR$/leyutang-microservice-edu/target/classes/com/leyutang/edu/controller/admin/TeacherAdminController.class" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +29,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="ProjectId" id="1Tx1Log34Iqv8zKNZiG63AdSJBS" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -27,7 +39,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -117,7 +129,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
