@@ -3,8 +3,9 @@ package com.leyutang.common.handler;
 import com.leyutang.common.constants.ResultCodeEnum;
 import com.leyutang.common.exception.LeyutangException;
 import com.leyutang.common.vo.R;
+import com.leyutang.common.util.ExceptionUtil;
 import lombok.extern.slf4j.Slf4j;
-import org.apache.ibatis.reflection.ExceptionUtil;
+//import org.apache.ibatis.reflection.ExceptionUtil;
 import org.springframework.http.converter.HttpMessageNotReadableException;
 import org.springframework.jdbc.BadSqlGrammarException;
 import org.springframework.web.bind.annotation.ControllerAdvice;
@@ -53,6 +54,14 @@ public class GlobalExceptionHandler {
         return R.setResult(ResultCodeEnum.FILE_UPLOAD_ERROR);
     }
 
+    @ExceptionHandler(LeyutangException.class)
+    @ResponseBody
+    public R error(LeyutangException e){
+        //e.printStackTrace();//输出异常堆栈信息
+        //log.error(e.getMessage());
+        log.error(ExceptionUtil.getMessage(e));
+        return R.error().message(e.getMessage()).code(e.getCode());
+    }
 
 
 }

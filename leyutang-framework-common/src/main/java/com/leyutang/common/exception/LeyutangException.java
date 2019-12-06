@@ -1,8 +1,13 @@
 package com.leyutang.common.exception;
 
 import com.leyutang.common.constants.ResultCodeEnum;
+import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
+import io.swagger.annotations.ApiOperation;
+import lombok.Data;
 
+@Data
+@ApiModel(value = "自定义全局异常类")
 public class LeyutangException extends RuntimeException {
     @ApiModelProperty(value = "状态码")
     private Integer code;
